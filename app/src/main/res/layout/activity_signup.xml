@@ -13,14 +13,14 @@
             android:layout_height="wrap_content"
             android:text="Create Account"
             android:textSize="24sp"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center" />
 
         <EditText
             android:id="@+id/etFullName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Full Name"
-            android:marginTop="16dp"/>
+            android:layout_marginTop="16dp" />
 
         <EditText
             android:id="@+id/etEmail"
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            android:marginTop="8dp"/>
+            android:layout_marginTop="8dp" />
 
         <EditText
             android:id="@+id/etPassword"
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:hint="Password"
             android:inputType="textPassword"
-            android:marginTop="8dp"/>
+            android:layout_marginTop="8dp" />
 
         <EditText
             android:id="@+id/etConfirmPassword"
@@ -44,20 +44,20 @@
             android:layout_height="wrap_content"
             android:hint="Confirm Password"
             android:inputType="textPassword"
-            android:marginTop="8dp"/>
+            android:layout_marginTop="8dp" />
 
         <Button
             android:id="@+id/btnSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Create Account"
-            android:marginTop="16dp"/>
+            android:layout_marginTop="16dp" />
 
         <Button
             android:id="@+id/btnBackToLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Back to Login"
-            android:marginTop="8dp"/>
+            android:layout_marginTop="8dp" />
     </LinearLayout>
 </ScrollView>
